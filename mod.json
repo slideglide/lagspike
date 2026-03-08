@@ -14,5 +14,8 @@
 	"dependencies": {
 		"geode.node-ids": ">=v1.20.0"
 	},
-	"tags": ["utility", "offline"]
+	"tags": ["utility", "offline"],
+	"links": {
+		"source": "https://github.com/peeetergriffin/lagspike"
+	}
 }
