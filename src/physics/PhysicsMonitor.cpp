@@ -26,7 +26,7 @@ PhysicsMonitor::TimerNode* PhysicsMonitor::TimerNode::create(PhysicsMonitor* mon
         node->autorelease();
         return node;
     }
-    CC_SAFE_DELETE(node);
+    delete node;
     return nullptr;
 }
 

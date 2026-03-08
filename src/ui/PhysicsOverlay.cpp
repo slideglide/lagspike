@@ -11,7 +11,7 @@ PhysicsOverlay* PhysicsOverlay::create() {
 		pRet->autorelease();
 		return pRet;
 	}
-	CC_SAFE_DELETE(pRet);
+	delete pRet;
 	return nullptr;
 }
 
