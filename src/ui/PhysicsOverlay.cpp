@@ -1,7 +1,5 @@
 #include "PhysicsOverlay.hpp"
 #include "physics/PhysicsMonitor.hpp"
-#include <iomanip>
-#include <sstream>
 
 using namespace geode::prelude;
 
